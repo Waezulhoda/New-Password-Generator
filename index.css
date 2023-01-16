@@ -1,0 +1,1209 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: inter,sans-serif;
+    background-image:url("https://static3.avast.com/10002656/web/i/v2/components/bg/bg-faint-orange.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+}
+html{
+    font-size: 62.5%;
+}
+.header{
+    width:100%;
+    margin: 1rem auto;
+    height:98vh;
+    background-image:url("https://static3.avast.com/10002656/web/i/v2/components/bg/bg-faint-orange.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.niyaz1{
+    font-size: 5rem;
+    font-weight: 700;
+    text-align: center;
+    padding-top:4rem;
+    padding-bottom:2rem;
+}
+.niyaz2{
+    font-size:2rem;
+    text-align: center;
+}
+.password{
+    height:6rem;
+    width:40%;
+    background-color: #fff;
+    margin-top: 15rem;
+    margin-left:50rem;
+    border-radius: 2rem;
+    padding-left: 3rem;
+    padding-top:2.2rem;
+    padding-bottom: 1.5rem;
+    font-size:1.7rem;
+    margin-bottom: 8rem;
+    border:0.1rem solid grey;
+}
+.pass-h3{
+    position: absolute;
+    top:31.5rem;
+    font-size: 1.8rem;
+    background-color:#f1c80b;
+    color:#fff;
+    font-weight:700;
+    padding:0.7rem 1.2rem;
+    border-radius: 1rem;
+    letter-spacing: 0.2rem;
+    margin-left:86rem;
+}
+.copy{
+    position: absolute;
+    display: inline-block;
+    text-decoration: none;
+    border-style: none;
+    background-color:#007bff;
+    color:#fff;
+    font-size: 2rem;
+    font-weight: 500;
+    padding-left:2.9rem;
+    padding-right:2.9rem;
+    padding-top: 1.6rem;
+    padding-bottom:1.6rem;
+    border-radius: 5rem;
+    margin-left:75%;
+    top:30.5rem;
+    cursor: pointer;
+}
+
+#minus{
+    display:inline-block;
+    width:5rem;
+    height:5rem;
+    border-radius:5rem;
+    font-size: 2.3rem;
+    cursor: pointer;
+    text-decoration: none;
+    border-style: none;
+    border:0.1rem solid black;
+    margin-left: 4rem;
+}
+#plus{
+    display:inline-block;
+    width:5rem;
+    height:5rem;
+    border-radius:5rem;
+    font-size: 2.3rem;
+    cursor: pointer;
+    text-decoration: none;
+    border-style: none;
+    border:0.1rem solid black;
+    margin-left:25rem;
+}
+.div-pass{
+    font-size:2rem;
+    font-weight: 500;
+}
+#length{
+    font-size: 2rem;
+    font-weight: 600;
+    /* padding-left: 1rem; */
+    /* padding-right: 1rem; */
+}
+.flex{
+    display:flex;
+    align-items: center;
+    /* min-width:38%; */
+    padding-left: 1rem;
+    margin-left:49rem;
+    margin-bottom: 8rem;
+}
+.flex-div2{
+    display: flex;
+    align-items: center;
+    margin-right:1.8rem;
+}
+.flex-div{
+    display:flex;
+    align-items: center;
+    /* width:70%; */
+}
+.flex-checkbox{
+    display:flex;
+    align-items: center;
+    margin-left:49.2rem;
+
+}
+.inner-flex-check{
+    display:flex;
+    align-items: center;
+    /* padding-top: 1rem;
+    padding-bottom: 1rem; */
+    margin-left: 5rem;
+}
+.flex-checkbox h2{
+    font-size: 2rem;
+    font-weight: 500;
+
+}
+label{
+    font-size: 2rem;
+    margin-left: 0.2rem;
+}
+.inner-flex-check input[type="checkbox"]{
+    margin-left: 4rem;
+    width:2rem;
+    height:2rem;
+}
+
+.reload{
+    position: absolute;
+    font-size:3rem;
+    border-style: none;
+    top:44.4rem;
+    margin-left:60%;
+    cursor: pointer;
+    border:0.1rem solid black;
+    width:5rem;
+    height:5rem;
+    border-radius:5rem;
+    color:black;
+
+}
+.password-img{
+    position:absolute;
+    width:40rem;
+    top:32rem;
+    /* left:5rem; */
+}
+.password-img2{
+    position:absolute;
+    width:40rem;
+    top: 32rem;
+    left:-40rem;
+}
+.password-img3{
+    position:absolute;
+    width:40rem;
+    top:32rem;
+    left:-40rem;
+   
+}
+.password-img4{
+    position:absolute;
+    width:40rem;
+    top:32rem;
+    left:-40rem;
+}
+.password-img5{
+    position:absolute;
+    width:40rem;
+    top:32rem;
+    left:-40rem;
+}
+.copied{
+    background-color:grey;
+    color: #fff;
+    width:9rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    position:absolute;
+    margin-left:75%;
+    top:30.5rem;
+    font-size: 1.6rem;
+    text-align: center;
+    border-radius: 2rem;
+    /* display:none; */
+}
+@media (min-width:300px) and (max-width:349px){
+    html{
+        font-size:38%;
+    }
+    .password{
+        position:absolute;
+        top:40rem;
+        margin-left: 6.1rem;
+        width:44rem;
+        padding-left: 0.7rem;
+    }
+    .password-img{
+        position: absolute;
+        top:24rem;
+        width:54%;
+        left:2rem;
+    }
+    .password-img2{
+        position:absolute;
+        width:54%;
+        top: 24rem;
+        left:-40rem;
+    }
+    .password-img3{
+        position:absolute;
+        width:54%;
+        top:24rem;
+        left:-40rem;
+       
+    }
+    .password-img4{
+        position:absolute;
+        width:54%;
+        top:24rem;
+        left:-40rem;
+    }
+    .password-img5{
+        position:absolute;
+        width:54%;
+        top:24rem;
+        left:-40rem;
+    }
+    .niyaz1{
+        padding-top: 0.1rem;
+    }
+    .niyaz2{
+        padding-top:0.1rem;
+        padding-left: 0.2rem;
+    }
+    .copy{
+        margin-top:32rem;
+        margin-left:22rem;
+    }
+    .copied{
+        margin-top: 35rem;
+        margin-left: 21rem;
+    }
+    .div-pass{
+        position:absolute;
+        top:70rem;
+        left:19.6rem;
+    }
+    #length{
+        position:absolute;
+        top:70rem;
+        left:40rem;
+    }
+    #minus{
+        position: absolute;
+        top:76rem;
+        left:2.6rem;
+    }
+    #plus{
+        position: absolute;
+        top:76rem;
+        left:18rem;
+    }
+    .flex-checkbox h2{
+        position:absolute;
+        top:83rem;
+        left:19.1rem;
+    }
+    .reload{
+        position: absolute;
+        top:76rem;
+        margin-left: 26rem;
+    }
+    .pass-h3{
+        position: absolute;
+        top:56.1rem;
+        margin-left: 28rem;
+    }
+    .inner-flex-check{
+        position:absolute;
+        top:90rem;
+        left:0.1rem;
+    }
+}
+@media (min-width:350px) and (max-width:413px){
+    html{
+        font-size:42%;
+    }
+    .password{
+        position:absolute;
+        top:40rem;
+        margin-left: 6.1rem;
+        width:44rem;
+        padding-left: 0.7rem;
+    }
+    .password-img{
+        position: absolute;
+        top:24rem;
+        width:56%;
+        
+    }
+    .password-img2{
+        position:absolute;
+        width:56%;
+        top: 24rem;
+        left:-40rem;
+    }
+    .password-img3{
+        position:absolute;
+        width:56%;
+        top:24rem;
+        left:-40rem;
+       
+    }
+    .password-img4{
+        position:absolute;
+        width:56%;
+        top:24rem;
+        left:-40rem;
+    }
+    .password-img5{
+        position:absolute;
+        width:56%;
+        top:24rem;
+        left:-40rem;
+    }
+    .niyaz1{
+        padding-top: 0.1rem;
+    }
+    .niyaz2{
+        padding-top:0.1rem;
+    }
+    .copy{
+        margin-top:32rem;
+        margin-left:22rem;
+    }
+    .copied{
+        margin-top: 35rem;
+        margin-left: 23rem;
+    }
+    .div-pass{
+        position:absolute;
+        top:70rem;
+        left:19.6rem;
+    }
+    #length{
+        position:absolute;
+        top:70rem;
+        left:40rem;
+    }
+    #minus{
+        position: absolute;
+        top:76rem;
+        left:2.6rem;
+    }
+    #plus{
+        position: absolute;
+        top:76rem;
+        left:18rem;
+    }
+    .flex-checkbox h2{
+        position:absolute;
+        top:83rem;
+        left:19.1rem;
+    }
+    .reload{
+        position: absolute;
+        top:76rem;
+        margin-left: 26rem;
+    }
+    .pass-h3{
+        position: absolute;
+        top:56.1rem;
+        margin-left: 28rem;
+    }
+    .inner-flex-check{
+        position:absolute;
+        top:90rem;
+        left:0.1rem;
+    }
+}
+@media (min-width:414px) and (max-width:500px){
+    html{
+        font-size:45%;
+    }
+    .password{
+        position:absolute;
+        top:40rem;
+        margin-left: 6.1rem;
+        width:44rem;
+        padding-left: 0.7rem;
+    }
+    .password-img{
+        position: absolute;
+        top:24rem;
+        width:57%;
+    }
+    .password-img2{
+        position:absolute;
+        width:57%;
+        top: 24rem;
+        left:-40rem;
+    }
+    .password-img3{
+        position:absolute;
+        width:57%;
+        top:24rem;
+        left:-40rem;
+       
+    }
+    .password-img4{
+        position:absolute;
+        width:57%;
+        top:24rem;
+        left:-40rem;
+    }
+    .password-img5{
+        position:absolute;
+        width:57%;
+        top:24rem;
+        left:-40rem;
+    }
+    .niyaz1{
+        padding-top: 0.1rem;
+    }
+    .niyaz2{
+        padding-top:0.1rem;
+    }
+    .copy{
+        margin-top:32rem;
+        margin-left:22rem;
+    }
+    .copied{
+        margin-top:35rem;
+        margin-left:23rem;
+    }
+    .div-pass{
+        position:absolute;
+        top:70rem;
+        left:19.6rem;
+    }
+    #length{
+        position:absolute;
+        top:70rem;
+        left:40rem;
+    }
+    #minus{
+        position: absolute;
+        top:76rem;
+        left:2.6rem;
+    }
+    #plus{
+        position: absolute;
+        top:76rem;
+        left:18rem;
+    }
+    .flex-checkbox h2{
+        position:absolute;
+        top:83rem;
+        left:19.1rem;
+    }
+    .reload{
+        position: absolute;
+        top:76rem;
+        margin-left: 26rem;
+    }
+    .pass-h3{
+        position: absolute;
+        top:56.1rem;
+        margin-left: 28rem;
+    }
+    .inner-flex-check{
+        position:absolute;
+        top:90rem;
+        left:0.1rem;
+    }
+}
+
+
+@media(min-width:501px) and (max-width:600px){
+    html{
+        font-size:50%;
+    }
+    .password{
+        position:absolute;
+        top:34rem;
+        margin-left: 6.1rem;
+        width:44rem;
+        padding-left: 0.7rem;
+    }
+    .password-img{
+        position: absolute;
+        top:20rem;
+        width:48%;
+        left:30rem;
+    }
+    .password-img2{
+        position: absolute;
+        top:20rem;
+        width:48%;
+        left:-40rem;
+    }
+    .password-img3{
+        position: absolute;
+        top:20rem;
+        width:48%;
+        left:-40rem;
+       
+    }
+    .password-img4{
+        position: absolute;
+        top:20rem;
+        width:48%;
+        left:-40rem;
+    }
+    .password-img5{
+        position: absolute;
+        top:20rem;
+        width:48%;
+        left:-40rem;
+    }
+    .niyaz1{
+        padding-top: 0.1rem;
+    }
+    .niyaz2{
+        padding-top:0.1rem;
+    }
+    .copy{
+        margin-top:26rem;
+        margin-left:22rem;
+    }
+    .div-pass{
+        position:absolute;
+        top:64rem;
+        left:19.6rem;
+    }
+    #length{
+        position:absolute;
+        top:64rem;
+        left:40rem;
+    }
+    #minus{
+        position: absolute;
+        top:69rem;
+        left:2.6rem;
+    }
+    #plus{
+        position: absolute;
+        top:69rem;
+        left:18rem;
+    }
+    .flex-checkbox h2{
+        position:absolute;
+        top:77rem;
+        left:19.1rem;
+    }
+    .reload{
+        position: absolute;
+        top:69rem;
+        margin-left: 26rem;
+    }
+    .pass-h3{
+        position: absolute;
+        top:50.1rem;
+        margin-left: 28rem;
+    }
+    .inner-flex-check{
+        position:absolute;
+        top:81.5rem;
+        left:0.1rem;
+    }
+    
+}
+
+@media (min-width:601px) and (max-width:700px){
+    html{
+        font-size: 52%;
+    }
+    .password{
+        position:absolute;
+        top:26rem;
+        margin-left: 17rem;
+        width:44rem;
+        padding-left: 0.7rem;
+    }
+    .password-img{
+        position: absolute;
+        top:18rem;
+        width:35%;
+        left:30rem;
+    }
+    .password-img2{
+        position: absolute;
+        top:18rem;
+        width:35%;
+        left:-40rem;
+    }
+    .password-img3{
+        position: absolute;
+        top:18rem;
+        width:35%;
+        left:-40rem;
+       
+    }
+    .password-img4{
+        position: absolute;
+        top:18rem;
+        width:35%;
+        left:-40rem;
+    }
+    .password-img5{
+        position: absolute;
+        top:18rem;
+        width:35%;
+        left:-40rem;
+    }
+    .niyaz1{
+        padding-top: 0.1rem;
+    }
+    .niyaz2{
+        padding-top:0.1rem;
+    }
+    .copy{
+        margin-top:18rem;
+        margin-left:34rem;
+    }
+    .div-pass{
+        position:absolute;
+        top:55rem;
+        left:30rem;
+    }
+    #length{
+        position:absolute;
+        top:55rem;
+        left:50rem;
+    }
+    #minus{
+        position: absolute;
+        top:61rem;
+        left:12rem;
+    }
+    #plus{
+        position: absolute;
+        top:61rem;
+        left:29rem;
+    }
+    .flex-checkbox h2{
+        position:absolute;
+        top:70rem;
+        left:29rem;
+    }
+    .reload{
+        position: absolute;
+        top:61rem;
+        margin-left: 35rem;
+    }
+    .pass-h3{
+        position: absolute;
+        top:42.2rem;
+        margin-left:39rem;
+    }
+    .inner-flex-check{
+        position:absolute;
+        top:76rem;
+        left:7rem;
+    }
+    
+}
+
+@media(min-width:701px ) and (max-width:769px){
+    html{
+        font-size: 54%;
+    }
+    .password{
+        position:absolute;
+        top:10rem;
+        margin-left:30rem;
+        width:42rem;
+        padding-left: 0.7rem;
+    }
+    .password-img{
+        position: absolute;
+        top:20rem;
+        width:32%;
+        left:30rem;
+    }
+    .password-img2{
+        position: absolute;
+        top:20rem;
+        width:32%;
+        left:-40rem;
+    }
+    .password-img3{
+        position: absolute;
+        top:20rem;
+        width:32%;
+        left:-40rem;
+       
+    }
+    .password-img4{
+        position: absolute;
+        top:20rem;
+        width:32%;
+        left:-40rem;
+    }
+    .password-img5{
+        position: absolute;
+        top:20rem;
+        width:32%;
+        left:-40rem;
+    }
+    .niyaz1{
+        padding-top: 0.1rem;
+    }
+    .niyaz2{
+        padding-top:0.1rem;
+    }
+    .copy{
+        position: absolute;
+        top:35.8rem;
+        right:16rem;
+        /* margin-top:1rem;
+        margin-left:22rem; */
+    }
+    .div-pass{
+        position:absolute;
+        top:37rem;
+        left:29.3rem;
+    }
+    #length{
+        position:absolute;
+        top:37rem;
+        left:49rem;
+    }
+    #minus{
+        position: absolute;
+        top:45rem;
+        left:26rem;
+    }
+    #plus{
+        position: absolute;
+        top:45rem;
+        left:22rem;
+    }
+    .flex-checkbox h2{
+        position:absolute;
+        top:59rem;
+        left:29rem;
+    }
+    .reload{
+        position: absolute;
+        top:45rem;
+        margin-left:65rem;
+    }
+    .pass-h3{
+        position: absolute;
+        top:26.2rem;
+        margin-left: 52rem;
+    }
+    .inner-flex-check{
+        position:absolute;
+        top:70rem;
+        left:19rem;
+    }
+    
+
+}
+
+@media(min-width:770px) and (max-width:1023px){
+    html{
+        font-size: 54.8%;
+    }
+    .password{
+        position:absolute;
+        top:10rem;
+        margin-left:35rem;
+        width:46rem;
+        padding-left: 0.7rem;
+    }
+    .password-img{
+        position: absolute;
+        top:35rem;
+        width:26%;
+        left:30rem;
+    }
+    .password-img2{
+        position: absolute;
+        top:35rem;
+        width:26%;
+        left:-40rem;
+    }
+    .password-img3{
+        position: absolute;
+        top:35rem;
+        width:26%;
+        left:-40rem;
+       
+    }
+    .password-img4{
+        position: absolute;
+        top:35rem;
+        width:26%;
+        left:-40rem;
+    }
+    .password-img5{
+        position: absolute;
+        top:35rem;
+        width:26%;
+        left:-40rem;
+    }
+    .niyaz1{
+        padding-top: 0.1rem;
+    }
+    .niyaz2{
+        padding-top:0.1rem;
+    }
+    .copy{
+        position: absolute;
+        top:15rem;
+        right:38rem;
+        /* margin-top:1rem;
+        margin-left:22rem; */
+    }
+    .div-pass{
+        position:absolute;
+        top:37rem;
+        left:45rem;
+    }
+    #length{
+        position:absolute;
+        top:37rem;
+        left:65rem;
+    }
+    #minus{
+        position: absolute;
+        top:45rem;
+        left:32rem;
+    }
+    #plus{
+        position: absolute;
+        top:45rem;
+        left:28rem;
+    }
+    .flex-checkbox h2{
+        position:absolute;
+        top:59rem;
+        left:46rem;
+    }
+    .reload{
+        position: absolute;
+        top:45rem;
+        margin-left:69rem;
+    }
+    .pass-h3{
+        position: absolute;
+        top:26.2rem;
+        margin-left: 60rem;
+    }
+    .inner-flex-check{
+        position:absolute;
+        top:70rem;
+        left:24rem;
+    }
+}
+@media (min-width:1024px) and (max-width:1050px){
+    html{
+        font-size: 55%;
+    }
+    /* .reload{
+        position:absolute;
+        left:16rem;
+    } */
+    .password{
+        margin-left: 36rem;
+        width:50%;
+    }
+    .password-img{
+        position:absolute;
+        width:30%;
+        top:31rem;
+    }
+    .password-img2{
+        position:absolute;
+        width:30%;
+        top: 31rem;
+        left:-40rem;
+    }
+    .password-img3{
+        position:absolute;
+        width:30%;
+        top:31rem;
+        left:-40rem;
+       
+    }
+    .password-img4{
+        position:absolute;
+        width:30%;
+        top:31rem;
+        left:-40rem;
+    }
+    .password-img5{
+        position:absolute;
+        width:30%;
+        top:31rem;
+        left:-40rem;
+    }
+    .pass-h3{
+       margin-left:70rem ;
+    }
+    .copy{
+        margin-left: 96rem;
+    }
+    .div-pass{
+       position:absolute;
+       left:35rem;
+    }
+    #length{
+        position:absolute;
+        left:54rem;
+    }
+    #minus{
+        position: absolute;
+        left:55rem;
+    }
+    #plus{
+        position: absolute;
+        left:48.4rem;
+    }
+    .reload{
+        position: absolute;
+        left:20rem;
+        top:42.8rem;
+    }
+    .flex-checkbox h2{
+        position: absolute;
+        left: 35rem;
+    }
+    .inner-flex-check{
+        position: absolute;
+        left: 47rem;
+    }
+    
+
+}
+
+@media (min-width:1051px) and (max-width:1150px){
+    html{
+        font-size: 58%;
+    }
+    /* .reload{
+        position:absolute;
+        left:20rem;
+    } */
+    .password{
+        margin-left: 40rem;
+        width:55rem;
+    }
+    .password-img{
+        position:absolute;
+        width:30%;
+        top:16rem;
+    }
+    .password-img2{
+        position:absolute;
+        width:30%;
+        top: 16rem;
+        left:-40rem;
+    }
+    .password-img3{
+        position:absolute;
+        width:30%;
+        top:16rem;
+        left:-40rem;
+       
+    }
+    .password-img4{
+        position:absolute;
+        width:30%;
+        top:16rem;
+        left:-40rem;
+    }
+    .password-img5{
+        position:absolute;
+        width:30%;
+        top:16rem;
+        left:-40rem;
+    }
+
+    .pass-h3{
+       margin-left:72rem ;
+    }
+    .copy{
+        margin-left: 97rem;
+    }
+    .div-pass{
+       position:absolute;
+       left:40rem;
+    }
+    #length{
+        position:absolute;
+        left:58rem;
+    }
+    #minus{
+        position: absolute;
+        left:58rem;
+    }
+    #plus{
+        position: absolute;
+        left:50rem;
+    }
+    .reload{
+        position: absolute;
+        left:16rem;
+        top:42.8rem;
+    }
+    .flex-checkbox h2{
+        position: absolute;
+        left: 40rem;
+    }
+    .inner-flex-check{
+        position: absolute;
+        left: 50rem;
+    }
+    
+}
+@media (min-width:1151px) and (max-width:1300px){
+    html{
+        font-size:60%;
+    }
+    .password{
+        margin-left: 40rem;
+        width:60rem;
+    }
+    .password-img{
+        position:absolute;
+        width:30%;
+        top:16rem;
+    }
+    .password-img2{
+        position:absolute;
+        width:30%;
+        top: 16rem;
+        left:-40rem;
+    }
+    .password-img3{
+        position:absolute;
+        width:30%;
+        top:16rem;
+        left:-40rem;
+       
+    }
+    .password-img4{
+        position:absolute;
+        width:30%;
+        top:16rem;
+        left:-40rem;
+    }
+    .password-img5{
+        position:absolute;
+        width:30%;
+        top:16rem;
+        left:-40rem;
+    }
+
+    .pass-h3{
+        margin-left: 72rem;
+    }
+    .copy{
+        margin-left:105rem;
+    }
+    .div-pass{
+       position:absolute;
+       left:40rem;
+    }
+    #length{
+        position:absolute;
+        left:58rem;
+    }
+    #minus{
+        position: absolute;
+        left:60rem;
+    }
+    #plus{
+        position: absolute;
+        left:54rem;
+    }
+    .reload{
+        position: absolute;
+        left:20rem;
+        top:42.8rem;
+    }
+    .flex-checkbox h2{
+        position: absolute;
+        left: 40rem;
+    }
+    .inner-flex-check{
+        position: absolute;
+        left: 50rem;
+    }
+}
+@media (min-width:1301px){
+    html{
+        font-size: 62.5%;
+    }
+    .password{
+        margin-left: 50rem;
+        width:60rem;
+    }
+    .password-img{
+        position:absolute;
+        width:26%;
+        top:23rem;
+    }
+    .password-img2{
+        position:absolute;
+        width:26%;
+        top: 23rem;
+        left:-60rem;
+    }
+    .password-img3{
+        position:absolute;
+        width:26%;
+        top:23rem;
+        left:-60rem;
+       
+    }
+    .password-img4{
+        position:absolute;
+        width:26%;
+        top:23rem;
+        left:-60rem;
+    }
+    .password-img5{
+        position:absolute;
+        width:26%;
+        top:23rem;
+        left:-60rem;
+    }
+
+    .pass-h3{
+        margin-left: 86rem;
+    }
+    .copy{
+        margin-left:113rem;
+    }
+    .div-pass{
+       position:absolute;
+       left:50rem;
+    }
+    #length{
+        position:absolute;
+        left:68rem;
+    }
+    #minus{
+        position: absolute;
+        left:70rem;
+    }
+    #plus{
+        position: absolute;
+        left:63rem;
+    }
+    .reload{
+        position: absolute;
+        left:21rem;
+        top:42.8rem;
+    }
+    .flex-checkbox h2{
+        position: absolute;
+        left: 50rem;
+    }
+    .inner-flex-check{
+        position: absolute;
+        left: 66rem;
+    }
+}

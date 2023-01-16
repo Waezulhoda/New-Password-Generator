@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <title>Random Password Generate</title>
+</head>
+<body>
+    <div class = "header">
+        <div>
+            <img src="./image/good.svg" alt="good one" class = "password-img">
+            <img src="./image/strong.svg" alt="good one" class = "password-img2">
+            <img src="./image/very-strong.svg" alt="good one" class = "password-img3">
+            <img src="./image/very-weak.svg" alt="good one" class = "password-img4">
+            <img src="./image/weak.svg" alt="good one" class = "password-img5">
+        </div>
+        <div class = "niyaz">
+            <h1 class = "niyaz1">Random Password Generator</h1>
+            <p class = "niyaz2">Create strong and secure password to keep your account safe online.</p>
+        </div>
+        <!-- <div class="password"></div> -->
+        <div class = "main-pass">
+            <div class="password"></div>
+            <h3 class = "pass-h3">VERY GOOD</h3>
+        </div>
+        
+        <button class="reload" onclick="generatePassword()">&olarr;</button>
+        <div>
+            <button class = "copy" onclick = "copyPassWord()" >copy</button>
+            <h3 class = "copied">copied</h3>
+        </div>
+
+        <div class = "flex">
+            <!-- <h2>Password length:</h2>
+            <h3 id="length">8</h3> -->
+            <div class = "flex-div2">
+                <h2 class = "div-pass">Password length <strong>:</strong></h2>
+                <h3 id="length">8</h3>
+            </div>
+            <div class = "flex-div">
+                <button id="minus" onclick="handleMinus()">-</button><br>
+                <!-- <div class = "range-div">
+                    <input type = "range"  id = "range"/>
+                </div> -->
+                <button id="plus" onclick="handlePlus()">+</button>
+            </div>
+        </div>
+        <!-- <div>
+            <button id="minus" onclick="handleMinus()">-</button><br>
+            <button id="plus" onclick="handlePlus()">+</button>
+        </div> -->
+        <div class = "flex-checkbox">
+            <h2>Characters used <strong>:</strong></h2>
+            <div class = "inner-flex-check">
+                <div >
+                    <input
+                        type = "checkbox"
+                        id = "capital"
+                        checked
+                        name="capital"
+                        value="capital"
+                        onclick="handleCapital()"
+                    />
+                    <label for = "capital"><strong>ABC</strong></label>
+                </div>
+                <div>
+                    <input
+                        type = "checkbox"
+                        id = "small"
+                        checked
+                        onclick="handleSmall()"
+                    />
+                    <label for = "small"><strong>abc</strong></label>
+                </div>
+                <div>
+                    <input
+                        type = "checkbox"
+                        id = "number"
+                        checked
+                        onclick="handleNumber()"
+                    />
+                    <label for = "number"><strong>123</strong></label>
+                </div>
+                <div>
+                    <input
+                        type = "checkbox"
+                        id = "symbol"
+                        onclick="handleSymbol()"
+                    />
+                    <label for = "symbol"><strong>#$&</strong></label>
+                </div>
+            </div>
+        </div>
+        <!-- <div>
+            <input
+                type = "checkbox"
+                id = "capital"
+                checked
+                name="capital"
+                value="capital"
+                onclick="handleCapital()"
+            />
+            <label for = "capital">ABC</label>
+        </div>
+        <div>
+            <input
+                type = "checkbox"
+                id = "small"
+                checked
+                onclick="handleSmall()"
+            />
+            <label for = "small">abc</label>
+        </div>
+        <div>
+            <input
+                type = "checkbox"
+                id = "number"
+                checked
+                onclick="handleNumber()"
+            />
+            <label for = "number">123</label>
+        </div>
+        <div>
+            <input
+                type = "checkbox"
+                id = "symbol"
+                onclick="handleSymbol()"
+            />
+            <label for = "symbol">#$&</label>
+        </div> -->
+    
+        <script src="index.js" defer></script>
+    </div>
+
+</body>
+</html>
